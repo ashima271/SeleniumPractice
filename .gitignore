@@ -1,0 +1,51 @@
+# Build artifacts
+/target/
+/build/
+/out/
+*.class
+*.jar
+*.war
+*.ear
+
+# IDE-specific files
+.idea/
+.project
+.classpath
+.settings/
+*.iml
+*.iws
+*.ipr
+*.vscode/
+*.sublime-workspace
+
+# Dependency directories
+/node_modules/
+/vendor/
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+/temp/
+
+# Configuration files with sensitive data (if not managed securely)
+config.properties
+application.properties
+*.env
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Driver executables (if not managed by WebDriverManager or similar)
+chromedriver
+geckodriver
+msedgedriver
+safaridriver
+
+# Test reports and screenshots (if not intended for version control)
+/test-output/
+/screenshots/
